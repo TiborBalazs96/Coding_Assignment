@@ -1,19 +1,20 @@
 * Change directory
 cd "C:\Users\Balazs_Tibor\Desktop\Coding_Assignment\code\stata"
 
-* Download data
+* Import data
 do "1_Importing_CSV"
 
-* Clean data
+* Merge Data
+
 do "2_Merging_Datasets"
 
-* Run (simple) analysis
+* Clean Data
 do "3_Cleaning_Datasets"
 
-* Plot graph
+* Filter and Transform Data
 do "4_Filtering_Transforming"
 
-* Plot graph
+* Regression
 do "5_Regression"
 
 * Plot graph
