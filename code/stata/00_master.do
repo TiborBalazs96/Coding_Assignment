@@ -1,14 +1,20 @@
 * Change directory
-cd "Code\coding_for_economists\"
+cd "C:\Users\Balazs_Tibor\Desktop\Coding_Assignment\code\stata"
 
 * Download data
-do "0_import_data.do"
+do "1_Importing_CSV"
 
 * Clean data
-do "1_filtering_transforming_data.do"
+do "2_Merging_Datasets"
 
 * Run (simple) analysis
-do "2_regression_analysis.do"
+do "3_Cleaning_Datasets"
 
 * Plot graph
-do "3_graph.do"
+do "4_Filtering_Transforming"
+
+* Plot graph
+do "5_Regression"
+
+* Plot graph
+do "6_Graph"
